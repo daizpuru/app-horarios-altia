@@ -15,7 +15,7 @@ public class AddUserToNoteHandler {
 
     @HandleBeforeCreate
     public void handleNoteBeforeCreate(Note note) {
-        logger.info("Inside Note Before Create....");
+        logger.info("Inside Note Before Create");
         String userName = SecurityContextHolder.getContext().getAuthentication().getName();
         logger.info("Creating note " + note + " for user " + userName);
         note.setUser(userName);
