@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.okta.developer</groupId>
-	<artifactId>notes-api</artifactId>
+	<artifactId>horarios-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>notes-api</name>
-	<description>Notes API for Spring Boot</description>
+	<name>horarios-api</name>
+	<description>Backend SpringBoot de la gestión de horarios</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
