@@ -22,6 +22,7 @@ public class DataInitializer implements ApplicationRunner {
         IntStream.range(0, 1000).forEachOrdered(n -> {
             notesRepository.save(new Note("Note " + n, "daizpuru@gmail.com"));
         });
+        logger.info("1000 notes created!");
         logger.info("Notes initialization complete!");
     }
 
